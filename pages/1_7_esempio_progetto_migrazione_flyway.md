@@ -242,9 +242,20 @@ L'output mostrato è quello atteso, dato che il database è praticamente _"nuovo
 level: 2
 ---
 
+<style scoped>
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
+
 # Esempio di progetto di migrazione con Flyway 8/8
 
-A questo punto possiamo eseguire lo script `migrate.sh` il cui risultato è quello mostrato a seguire.
+A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo da zero. Il video è accelerato 5 volte per questioni di tempo. Qui https://asciinema.org/a/660361 puoi trovare il video completo.
 
-<img v-click src="images/asciinema/demo_esecuzione_prima_migrazione.gif" alt="Esecuzione della prima migrazione del database"/>
+<div class="centered-image">
+<img v-click width="70%" height="70%" src="images/asciinema/demo_esecuzione_prima_migrazione_full_5x.gif" alt="Esecuzione della prima migrazione del database"/>
+</div>
 

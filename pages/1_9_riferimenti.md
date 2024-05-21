@@ -4,7 +4,7 @@ layout: default
 
 # Riferimenti riguardo il Database Versioning 1/2
 
-<v-clicks>
+<v-clicks depth="2">
 
 1. Libri
    - **Refactoring Databases: Evolutionary Database Design" by Scott W. Ambler and Pramodkumar J. Sadalage**: questo libro offre una panoramica completa sull'evoluzione del database e sulle tecniche per gestire le modifiche in modo sicuro ed efficace (https://amzn.to/4bshqOe).
@@ -18,7 +18,7 @@ level: 2
 
 # Riferimenti riguardo il Database Versioning 2/2
 
-<v-clicks>
+<v-clicks depth="2">
 
 2. Risorse Online
    - **Flyway Documentation**: la documentazione ufficiale di Flyway fornisce una guida completa sull'uso di Flyway per la migrazione e il versioning del database. Include esempi pratici, suggerimenti e casi d'uso comuni (https://documentation.red-gate.com/fd/flyway-documentation-138346877.html).
