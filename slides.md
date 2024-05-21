@@ -2,9 +2,9 @@
 # theme id or package name
 # Learn more: https://sli.dev/themes/use.html
 theme: seriph
-layout: cover
+layout: none
 # Background of the cover slide
-background: '/images/cover/database_versioning_cover_1.png'
+#background: '/images/cover/database_versioning_cover_1.png'
 
 # Metadata for the slides
 info: |
@@ -70,6 +70,16 @@ htmlAttrs:
   dir: ltr
   lang: it
 ---
+
+<style>
+.slidev-page {
+  padding: 0;
+  background: url("/images/cover/database_versioning_cover_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 
 ---
 src: ./pages/1_1_introduzione.md
