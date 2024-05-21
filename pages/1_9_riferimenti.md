@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Riferimenti riguardo il Database Versioning 1/2
+# Riferimenti riguardo il Database Versioning 1/3
 
 <v-clicks depth="2">
 
@@ -16,7 +16,7 @@ layout: default
 level: 2
 ---
 
-# Riferimenti riguardo il Database Versioning 2/2
+# Riferimenti riguardo il Database Versioning 2/3
 
 <v-clicks depth="2">
 
@@ -24,5 +24,21 @@ level: 2
    - **Flyway Documentation**: la documentazione ufficiale di Flyway fornisce una guida completa sull'uso di Flyway per la migrazione e il versioning del database. Include esempi pratici, suggerimenti e casi d'uso comuni (https://documentation.red-gate.com/fd/flyway-documentation-138346877.html).
    - **Liquibase Documentation:** altro popolare strumento di versioning del database, ha una documentazione dettagliata che copre i concetti di base, le migliori pratiche e le varie funzionalità offerte (https://docs.liquibase.com/home.html).
    - **Database Continuous Delivery by Yaniv Yehuda**: A fast moving world; Agile, DevOps & Automation (https://www.infoq.com/articles/Database-Continuous-Delivery/).
-   - **Evolutionary Database Design by Martin Fowler and Pramod Sadalage**: tecniche che consentono alla progettazione di un database di evolversi man mano che si sviluppa un'applicazione (https://martinfowler.com/articles/evodb.html).  
+   - **Evolutionary Database Design by Martin Fowler and Pramod Sadalage**: tecniche che consentono alla progettazione di un database di evolversi man mano che si sviluppa un'applicazione (https://martinfowler.com/articles/evodb.html).
+
+</v-clicks>
+
+
+---
+level: 2
+---
+
+# Riferimenti riguardo il Database Versioning 3/3
+
+<v-clicks depth="2">
+
+3. Risorse Online - Frameworks Java
+   - **Quarkus: Using Flyway**: guida ufficiale su come utilizzare Flyway con Quarkus (https://quarkus.io/guides/flyway).
+   - **Quarkus: Using Liquibase:** guida ufficiale su come utilizzare Liquibase con Quarkus (https://quarkus.io/guides/liquibase).
+
 </v-clicks>
