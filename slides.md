@@ -4,7 +4,7 @@
 theme: seriph
 layout: cover
 # Background of the cover slide
-background: './images/cover/database_versioning_cover_1.png'
+background: '/images/cover/database_versioning_cover_1.png'
 
 # Metadata for the slides
 info: |
