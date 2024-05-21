@@ -4,11 +4,11 @@ layout: default
 
 # About Me
 
-- **Name:** [Antonio Musarra]
-- **Profession:** [Software Architect, Tech Blogger]
-- **Location:** [Roma]
+- **Nome:** [Antonio Musarra]
+- **Professione:** [Software Architect, Tech Blogger]
+- **Località:** [Roma]
 
-## Contact
+## Contatti
 
 - **Email:** [amusarra@sogei.it]
 - **LinkedIn:** [https://www.linkedin.com/in/amusarra/]
