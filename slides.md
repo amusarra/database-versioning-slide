@@ -16,6 +16,7 @@ info: |
 author: Antonio Musarra
 keywords: database,sql,versioning,devops,flyway,liquibase,alembic,sqlalchemy,python,java
 title: Database Versioning
+favicon: /images/favicon.jpeg
 
 # Define the transitions between slides
 transition: slide-left
@@ -29,6 +30,7 @@ fonts:
   sans: Open Sans
   serif: Cambria
   mono: Hack
+  provider: none
 
 # Enable or disable the Markdown Components feature
 mdc: true
