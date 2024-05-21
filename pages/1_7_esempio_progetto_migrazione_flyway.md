@@ -256,6 +256,6 @@ level: 2
 A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo da zero. Il video è accelerato 5 volte per questioni di tempo. Qui https://asciinema.org/a/660361 puoi trovare il video completo.
 
 <div class="centered-image">
-<img v-click width="70%" height="70%" src="images/asciinema/demo_esecuzione_prima_migrazione_full_5x.gif" alt="Esecuzione della prima migrazione del database"/>
+<img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_5x.gif" alt="Esecuzione della prima migrazione del database"/>
 </div>
 
