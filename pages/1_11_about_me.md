@@ -15,3 +15,7 @@ layout: default
 - **Website:** [https://www.sogei.it]
 - **My GitHub Repositories**: [https://github.com/amusarra]
 - **My Blog**: [https://www.dontesta.it]
+
+<div class="top-5% absolute left-75%">
+    <img src="/images/foto_profilo.png" width="70%" height="70%">
+</div>
