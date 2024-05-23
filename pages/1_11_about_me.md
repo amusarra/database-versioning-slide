@@ -10,8 +10,8 @@ layout: default
 
 ## Contatti
 
-- **Email:** [amusarra@sogei.it]
+- **Email:** [amusarra@sogei.it] | [antonio.musarra@gmail.com]
 - **LinkedIn:** [https://www.linkedin.com/in/amusarra/]
 - **Website:** [https://www.sogei.it]
-- **GitHub**: [https://github.com]
+- **My GitHub Repositories**: [https://github.com/amusarra]
 - **My Blog**: [https://www.dontesta.it]

@@ -40,5 +40,7 @@ level: 2
 3. Risorse Online - Frameworks Java
    - **Quarkus: Using Flyway**: guida ufficiale su come utilizzare Flyway con Quarkus (https://quarkus.io/guides/flyway).
    - **Quarkus: Using Liquibase:** guida ufficiale su come utilizzare Liquibase con Quarkus (https://quarkus.io/guides/liquibase).
+   - **Using Liquibase with Spring Boot**: lo scopo di questo tutorial è guidarti attraverso il processo di utilizzo di Liquibase come parte del flusso di lavoro Spring Boot (https://contribute.liquibase.com/extensions-integrations/directory/integration-docs/springboot/).
+   - **Intro to Database Migrations in Spring Boot 3 with Flyway**: in questo video è mostrato come integrare Flyway in un'applicazione Spring Boot 3 e utilizzarlo per gestire in modo efficace le migrazioni dei database. Concetti di base di Flyway, come la sua configurazione, la creazione ed esecuzione di script di migrazione e il controllo delle versioni del database (https://www.youtube.com/watch?v=p1V5GcKUJv0).
 
 </v-clicks>

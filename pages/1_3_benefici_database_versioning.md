@@ -9,7 +9,7 @@ layout: default
 - **Coerenza**
   - Garantisce che tutti i membri del team di sviluppo lavorino con la stessa versione dello schema del database, riducendo il rischio di conflitti e incoerenze.
 - **Tracciabilità**
-  - Ogni modifica al database è tracciata con un record chiaro di chi ha fatto cosa e quando. Questo facilita il debug e la manutenzione.
+  - Ogni modifica al database è tracciata con un record chiaro di chi ha fatto cosa e quando. Questo facilita il debug e la manutenzione; inoltre, è utile per scopi di audit e conformità.
 - **Automazione**
   - Le migrazioni possono essere automatizzate, facilitando l'implementazione delle modifiche in ambienti diversi, come sviluppo, test e produzione.
 - **Riproducibilità**

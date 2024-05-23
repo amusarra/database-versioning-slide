@@ -33,3 +33,7 @@ ALTER TABLE users ADD COLUMN last_login TIMESTAMP;
   Per eseguire la migrazione è sufficiente eseguire il comando `flyway migrate` nella directory contenente gli script di migrazione.
 
 </v-clicks>
+
+<!--
+Qui vedremo dei semplici script SQL (DDL) di migrazione applicando la migrazione usando Flyway da CLI, senza quindi nessuna integrazione con Quarkus, Spring Boot o altro framework di sviluppo Java.
+-->

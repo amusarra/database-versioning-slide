@@ -15,4 +15,7 @@ layout: default
 
 </v-clicks>
 
-
+<!--
+Esistono diversi strumenti a supporto delle attività di versioning del database; qui mostrerò quelli più comuni per l'ambienti Java e Python.
+Flyway e Liquibase sono integrati con i framework Java cloud-native più conosciuti come Spring Boot e Quarkus.
+-->

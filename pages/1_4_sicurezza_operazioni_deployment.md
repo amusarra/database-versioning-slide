@@ -17,6 +17,15 @@ Per migliorare la sicurezza quando si utilizzano strumenti di <span v-mark.red="
 
 </v-clicks>
 
+<!--
+Per la terza strategia "Utilizzo di un servizio intermedio", è possibile utilizzare tre possibili pattern k8s (Kubernetes) che sono:
+1. Job
+2. Init Container
+3. Operator
+
+Nel caso in cui la propria applicazione sia sviluppata tramite il framewrok Java Quarkus, questo, prevede OOTB dei pattern per assolvere nel modo ottimale all'esecuzione dei task di migrazione.
+-->
+
 ---
 level: 2
 ---

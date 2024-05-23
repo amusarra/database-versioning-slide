@@ -83,6 +83,14 @@ htmlAttrs:
 }
 </style>
 
+<!--
+Con questa presentazione, vorrei discutere con voi un tema su cui sono abbastanza sensibile; credo che sia giunto il momento di affrontarlo in modo concreto e fare quel passo in più necessario per iniziare il processo di automazione anche per quel che riguarda le basi di dati applicative.
+
+Per facilitare lo svolgimento di questa presentazione, vi prego di mettere da parte tutte le vostre domande che affronteremo alla fine di questa presentazione.
+
+Bene! Iniziamo
+-->
+
 ---
 src: ./pages/1_1_introduzione.md
 ---

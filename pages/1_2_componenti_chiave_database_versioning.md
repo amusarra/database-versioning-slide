@@ -13,8 +13,10 @@ layout: default
 - **Rollback**
   - La capacità di annullare una migrazione, tornando a una versione precedente dello schema. Questo è utile per gestire errori o modifiche non desiderate.
 - **Script di seed e fixture**
-  - Script utilizzati per popolare il database con dati iniziali o di esempio, necessari per testare l'applicazione.
+  - Script utilizzati per popolare il database con dati iniziali o di esempio, necessari per testare l'applicazione (vedi integration test).
 
 </v-clicks>
 
-
+<!--
+Per la documentazione è preferibile usare l'approccio doc-as-code di cui recentemente ho fatto un post sul gruppo Ready2Learn di Viva Engage o Yammer.
+-->

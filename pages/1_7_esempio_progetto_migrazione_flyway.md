@@ -6,12 +6,16 @@ layout: default
 
 Brevemente vedremo com'è strutturato un classico progetto di migrazione del database usando **Flyway** e come gestire le migrazioni attraverso la CLI (Command Line Interface) messa a disposizione. La versione di riferimento è la OSS Edition v10.13.0
 
-<span v-click>Un progetto standard (standalone) in genere include: script di migrazione, configurazione di Flyway e uno script di esecuzione.</span>
+<span v-click>Un progetto standard (standalone) in genere include: script di migrazione, configurazione di Flyway e uno script di esecuzione (quest'ultimo opzionale e costruito sulla base delle proprie esigenze).</span>
 
 <v-clicks>
 
 ```shell {lineNumbers: false}
-.
+# V: Indica che si tratta di una migrazione versionata. È un prefisso obbligatorio.
+# <Version>: Numero di versione della migrazione. Può essere un numero intero (es. 1, 2, 3) o semantic version. Le versioni devono seguire un ordine naturale per Flyway.
+# __: Doppio underscore come separatore tra il numero di versione e la descrizione. È obbligatorio.
+# <Description>: Descrizione della migrazione. Deve essere una stringa descrittiva senza spazi (può usare underscore 
+# _ o trattini - per separare le parole). La descrizione è facoltativa ma consigliata per rendere il file di migrazione leggibile e comprensibile.
 ├── flyway.toml
 ├── migrate.sh
 └── sql
@@ -23,17 +27,35 @@ Brevemente vedremo com'è strutturato un classico progetto di migrazione del dat
 
 </v-clicks>
 
-<br>
-
 <v-clicks>
 
 - **flyway.toml**: contiene le configurazioni di Flyway (comprese le informazioni di connessioni dal database)
 - **migrate.sh**: script shell che esegue la migrazione
 
+</v-clicks>
+
+<div v-click="5"
+   class="top-20 left-40 transition forward:delay-500" style="position: absolute">
+  <img src="/images/repository_esempio_on_github.png" height="80%" width="80%" style="border-style: solid; border-color: #ecf3ec; border-width: 1px"/>
+</div>
+
+<!--
+Come scritto e detto in qualche slide precedente, Flyway (https://flywaydb.org/) è uno strumento Open Source sviluppa da RedGate e fornito in tre diverse edizioni ogni delle quali con caratteristiche diverse che possono essere valutate qui https://www.red-gate.com/products/flyway/editions.
+
 È quindi richiesto avere Flyway installato sulla propria macchina o sulla quella dedicata all'esecuzione dello script. 
 Puoi scaricarlo dal sito ufficiale di Flyway [qui](https://documentation.red-gate.com/fd/command-line-184127404.html).
 
-</v-clicks>
+Tipi di Migrazioni
+Oltre alle migrazioni versionate, Flyway supporta anche altri tipi di migrazioni:
+
+1. Migrazioni Ripetibili: Questi script vengono eseguiti ogni volta che cambiano. Utilizzano il prefisso R al posto di V.
+2. Migrazioni Baseline: Utilizzate per baselining di un database già esistente. Utilizzano il prefisso B al posto di V.
+3. Migrazioni Patch: Utilizzate per correggere i dati senza cambiare la struttura del database. Utilizzano il prefisso P al posto di V.
+
+Il pattern dei file di migrazione può essere configurato tramite le proprietà di Flyway se desideri utilizzare un pattern diverso dal default.
+
+Il progetto di esempio è disponibile sul mio repository GitHub e come potete vedere con l'uso dei tag è possibile gestire le varie versioni dello schema del database.
+-->
 
 ---
 level: 2
@@ -70,6 +92,9 @@ il formato tradizionale (legacy) conf (properties format). Per maggiori consulta
 
 </v-clicks>
 
+<!--
+Tramite la configurazione è possibile diversificare per ambiente di deployment, questo è fondamentale quando occorre agire sui diversi ambienti, come sviluppo, validazione, pre-produzione e produzione, a maggior ragione nel caso in cui volessi sfruttare gli ambienti di CI/CD.
+-->
 
 ---
 level: 2
@@ -256,6 +281,5 @@ level: 2
 A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo da zero. Il video è accelerato 5 volte per questioni di tempo. Qui https://asciinema.org/a/660361 puoi trovare il video completo.
 
 <div class="centered-image">
-<img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_5x.gif" alt="Esecuzione della prima migrazione del database"/>
+<img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_3x.gif" alt="Esecuzione della prima migrazione del database"/>
 </div>
-
