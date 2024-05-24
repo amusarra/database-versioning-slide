@@ -74,9 +74,9 @@ htmlAttrs:
 ---
 
 <style>
-.slidev-page {
+.slidev-page slidev-page-1 {
   padding: 0;
-  background: url("/images/cover/database_versioning_cover_1.png");
+  background: url("/images/cover/database_versioning_cover_1-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
