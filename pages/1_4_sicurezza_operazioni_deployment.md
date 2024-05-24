@@ -18,7 +18,7 @@ Per migliorare la sicurezza quando si utilizzano strumenti di <span v-mark.red="
 </v-clicks>
 
 <!--
-Per la terza strategia "Utilizzo di un servizio intermedio", è possibile utilizzare tre possibili pattern k8s (Kubernetes) che sono:
+Per la seconda strategia "Utilizzo di un servizio intermedio", è possibile utilizzare tre possibili pattern k8s (Kubernetes) che sono:
 1. Job
 2. Init Container
 3. Operator

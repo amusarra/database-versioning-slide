@@ -29,7 +29,7 @@ Brevemente vedremo com'è strutturato un classico progetto di migrazione del dat
 
 <v-clicks>
 
-- **flyway.toml**: contiene le configurazioni di Flyway (comprese le informazioni di connessioni dal database)
+- **flyway.toml**: contiene le configurazioni di Flyway (comprese le informazioni di connessioni al database)
 - **migrate.sh**: script shell che esegue la migrazione
 
 </v-clicks>
@@ -263,6 +263,21 @@ L'output mostrato è quello atteso, dato che il database è praticamente _"nuovo
 
 </v-clicks>
 
+<!--
+Nella successiva slide vedremo il processo di migrazione in azione e in particolare:
+1. Clonazione del repository dello Schema del Database partendo dalla versione 1.0.0
+2. Visione degli script di migrazione che fanno parte della release 1.0.0
+3. Avvio del database (in questo caso PostgreSQL) vuoto su cui non è mai stata applicata nessuna migrazione
+5. Verifica dello stato del Database
+6. Avvio della migrazione
+7. Aggiornamento del Database a una nuova versione (2.0.0) dello Schema
+8. Verifica degli script SQL
+9. Esecuzione della migrazione per ottenere la nuova versione dello schema del Database V2.0.0)
+10. Aggiornamento del repository per la verifica di nuove versioni
+11. Esecuzione della migrazione per ottenere la nuova versione dello Schema del Database
+12. Gestione dell'errore della migrazione e risoluzione
+-->
+
 ---
 level: 2
 ---
@@ -278,8 +293,8 @@ level: 2
 
 # Esempio di progetto di migrazione con Flyway 8/8
 
-A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo da zero. Il video è accelerato 5 volte per questioni di tempo. Qui https://asciinema.org/a/660361 puoi trovare il video completo.
+A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo da zero. Il video è accelerato 3 volte per questioni di tempo. Qui https://asciinema.org/a/660361 puoi trovare il video completo.
 
 <div class="centered-image">
-<img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_3x.gif" alt="Esecuzione della prima migrazione del database"/>
+<img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_2x.gif" alt="Esecuzione della prima migrazione del database"/>
 </div>

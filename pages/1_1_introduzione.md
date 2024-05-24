@@ -23,6 +23,12 @@ distribuito e collaborativo e dove il database è un componente critico del sist
 
 </v-clicks>
 
+<!--
+Alla pari di qualunque progetto software (C/C++, Erlang, Java, etc.) anche per le DDL/DML del database dovremmo arrivare a una situazione di versioning come quella mostrata da questo grafo.
+
+Soffermarsi un attimo per spiegare il minimo indispensabile su questo diagramma.
+-->
+
 ---
 layout: default
 ---
@@ -56,7 +62,5 @@ commit id: "v5" tag: "Version 5" type: HIGHLIGHT
 </div>
 
 <!--
-Alla pari di qualunque progetto software (C/C++, Erlang, Java, etc.) anche per le DDL/DML del database dovremmo arrivare a una situazione di versioning come quella mostrata.
-
-Soffermarsi un attimo per spiegare il minimo indispensabile su questo diagramma.
+Adesso vedremo quali sono i componenti chiave necessari per raggiungere gli obiettivi del database versioning.
 -->
