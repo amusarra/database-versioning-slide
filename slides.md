@@ -2,8 +2,8 @@
 # theme id or package name
 # Learn more: https://sli.dev/themes/use.html
 theme: seriph
-layout: none
-
+layout: cover
+background: '/images/cover/database_versioning_cover_1-min.png'
 # Metadata for the slides
 info: |
   ## Database Versioning
@@ -76,7 +76,7 @@ htmlAttrs:
 ---
 
 <style>
-.slidev-page slidev-page-1 {
+.slidev-page {
   padding: 0;
   background: url("/images/cover/database_versioning_cover_1-min.png");
   background-repeat: no-repeat;
