@@ -13,7 +13,7 @@ Se non volete installare nulla, potete vedere la presentazione direttamente su
 1. [GitHub Pages](https://amusarra.github.io/database-versioning-slide)
 2. Netlify su [database-versioning-slide](https://database-versioning.dontesta.it/)
 
-Per chi di voi volesse installare la presentazione in locale, seguite questi passaggi:
+Per chi di voi volesse installare la presentazione in locale, dovrà seguire i seguenti passaggi:
 
 ```bash
 # Installazione o verifica di Node.js >= 18
