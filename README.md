@@ -22,6 +22,12 @@ node -v
 # Clonare il repository
 git clone https://github.com/amusarra/database-versioning-slide.git
 
+# (Opzionale) Nel caso in cui il git clone non funzioni a causa dell'errore 
+# "RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)"
+# dovreste risolvere il problema incrementando il buffer di git utilizzando il 
+# comando a seguire.
+git config --global http.postBuffer 524288000
+
 # Entrare nella cartella
 cd database-versioning-slide
 
