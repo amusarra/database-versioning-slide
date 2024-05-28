@@ -10,10 +10,8 @@ info: |
   Presentazione sul database versioning che illustra i benefici, gli strumenti comuni e le best practices per gestire le versioni delle strutture e dei dati di un database.
 
   Autore: Antonio Musarra
-  
-  Commit ID: 6d43e51
-  
-  Tag: none
+
+  Tag: v1.0.0
 
 author: Antonio Musarra
 keywords: database,sql,versioning,devops,flyway,liquibase,alembic,sqlalchemy,python,java
