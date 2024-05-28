@@ -19,4 +19,6 @@ layout: default
 
 <!--
 Per la documentazione è preferibile usare l'approccio doc-as-code di cui recentemente ho fatto un post sul gruppo Ready2Learn di Viva Engage o Yammer.
+
+Questa stessa presentazione è realizzata con lo stesso tipo di approccio.
 -->

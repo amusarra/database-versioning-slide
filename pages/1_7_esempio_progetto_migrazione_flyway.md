@@ -152,6 +152,10 @@ Sotto il cofano, l'esecuzione del comando `flyway migrate` esegue le seguenti at
 
 </v-clicks>
 
+<!--
+La possibilità delle variabili di ambiente, lo rende abilitato per ambienti CI/CD e k8s.
+-->
+
 ---
 level: 2
 ---
@@ -298,3 +302,7 @@ A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo d
 <div class="centered-image">
 <img v-click width="70%" height="70%" src="/images/asciinema/demo_esecuzione_prima_migrazione_full_2x.gif" alt="Esecuzione della prima migrazione del database"/>
 </div>
+
+<!--
+Durante l'esecuzione di questa demo non abbiamo visto lo scenario di rollback perché ogni tipo di tool di migrazione lo affronta in modo diverso anche in base alla edizione (OSS, Standard, Tems, Enterprise).
+-->

@@ -65,3 +65,7 @@ level: 2
   Implementando queste strategie, è possibile ridurre significativamente il rischio associato alla concessione di privilegi elevati agli utenti delle applicazioni durante le migrazioni del database, mantenendo al contempo un flusso di lavoro efficiente per la gestione delle migrazioni stesse.
 
 </div>
+
+<!--
+Immagino che tutti sappiate che le secret standard di k8s non sono realmente sicure in quanto sfrutta l'encode in base64 per i valori memorizzato al suo interno, motivo per noi non ho fatto menzione.
+-->

@@ -24,6 +24,8 @@ distribuito e collaborativo e dove il database è un componente critico del sist
 </v-clicks>
 
 <!--
+Solitamente la prima slide mostra la TOC (Tabella dei Contenuti) ma ho evitato volutamente al fine di scoprire i vari argomenti nel corso della sessione.
+
 Alla pari di qualunque progetto software (C/C++, Erlang, Java, etc.) anche per le DDL/DML del database dovremmo arrivare a una situazione di versioning come quella mostrata da questo grafo.
 
 Soffermarsi un attimo per spiegare il minimo indispensabile su questo diagramma.
