@@ -11,7 +11,7 @@ info: |
 
   Autore: Antonio Musarra
 
-  Tag: v1.1.0
+  Tag: v1.0.1
 
 author: Antonio Musarra
 keywords: database,sql,versioning,devops,flyway,liquibase,alembic,sqlalchemy,python,java
