@@ -7,7 +7,7 @@ layout: default
 <v-clicks  depth="2">
 
 - Script SQL (esempio Flyway)
-  - Versione 1.0.0: Crea la tabella users con campi id, username e email.
+  - Versione 1.0.0: Crea la tabella users con campi id, username ed email.
   - Versione 1.1.0: Aggiunge il campo last_login alla tabella users.
 
 <br>

@@ -49,7 +49,7 @@ Tipi di Migrazioni
 Oltre alle migrazioni versionate, Flyway supporta anche altri tipi di migrazioni:
 
 1. Migrazioni Ripetibili: Questi script vengono eseguiti ogni volta che cambiano. Utilizzano il prefisso R al posto di V.
-2. Migrazioni Baseline: Utilizzate per baselining di un database già esistente. Utilizzano il prefisso B al posto di V.
+2. Migrazioni Baseline: Utilizzate per la baseline di un database già esistente. Utilizzano il prefisso B al posto di V.
 3. Migrazioni Patch: Utilizzate per correggere i dati senza cambiare la struttura del database. Utilizzano il prefisso P al posto di V.
 
 Il pattern dei file di migrazione può essere configurato tramite le proprietà di Flyway se desideri utilizzare un pattern diverso dal default.
@@ -304,5 +304,5 @@ A seguire un video che mostra l'esecuzione di una serie di migrazioni partendo d
 </div>
 
 <!--
-Durante l'esecuzione di questa demo non abbiamo visto lo scenario di rollback perché ogni tipo di tool di migrazione lo affronta in modo diverso anche in base alla edizione (OSS, Standard, Tems, Enterprise).
+Durante l'esecuzione di questa demo non abbiamo visto lo scenario di rollback perché ogni tipo di tool di migrazione lo affronta in modo diverso anche in base alla edizione (OSS, Standard, Teams, Enterprise).
 -->

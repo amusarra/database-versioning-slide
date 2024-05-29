@@ -23,7 +23,7 @@ Per la seconda strategia "Utilizzo di un servizio intermedio", è possibile util
 2. Init Container
 3. Operator
 
-Nel caso in cui la propria applicazione sia sviluppata tramite il framewrok Java Quarkus, questo, prevede OOTB dei pattern per assolvere nel modo ottimale all'esecuzione dei task di migrazione.
+Nel caso in cui la propria applicazione sia sviluppata tramite il framework Java Quarkus, questo, prevede OOTB dei pattern per assolvere nel modo ottimale all'esecuzione dei task di migrazione.
 -->
 
 ---
@@ -54,7 +54,7 @@ level: 2
 - **Logging e auditing**
   - Abilita il logging e l'auditing delle migrazioni per tracciare quali modifiche sono state fatte, quando e da chi. Questo non solo migliora la sicurezza, ma aiuta anche nella diagnosi di eventuali problemi.
 - **Gestione delle chiavi di accesso**
-  - Usa strumenti di gestione delle chiavi di accesso come HashiCorp Vault, AWS Secrets Manager o Azure Key Vault per gestire e distribuire le credenziali di accesso ai database in modo sicuro.
+  - Usa strumenti di gestione delle chiavi di accesso come HashiCorp Vault, AWS Secrets Manager o Azure Key Vault per gestire e distribuire le credenziali di accesso verso i database in modo sicuro.
 </v-clicks>
 
 <br>
