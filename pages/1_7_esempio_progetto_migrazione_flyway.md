@@ -40,12 +40,14 @@ Brevemente vedremo com'è strutturato un classico progetto di migrazione del dat
 </div>
 
 <!--
-Come scritto e detto in qualche slide precedente, Flyway (https://flywaydb.org/) è uno strumento Open Source sviluppa da RedGate e fornito in tre diverse edizioni ogni delle quali con caratteristiche diverse che possono essere valutate qui https://www.red-gate.com/products/flyway/editions.
+Flyway (https://flywaydb.org/) è uno strumento Open Source sviluppato da RedGate e fornito in tre diverse edizioni ognuna delle quali con caratteristiche diverse che possono essere valutate qui https://www.red-gate.com/products/flyway/editions.
 
-È quindi richiesto avere Flyway installato sulla propria macchina o sulla quella dedicata all'esecuzione dello script. 
+È quindi richiesto che Flyway sia stato installato sulla propria macchina o sulla quella dedicata all'esecuzione dello script.
+
 Puoi scaricarlo dal sito ufficiale di Flyway [qui](https://documentation.red-gate.com/fd/command-line-184127404.html).
 
 Tipi di Migrazioni
+-
 Oltre alle migrazioni versionate, Flyway supporta anche altri tipi di migrazioni:
 
 1. Migrazioni Ripetibili: Questi script vengono eseguiti ogni volta che cambiano. Utilizzano il prefisso R al posto di V.
@@ -153,7 +155,7 @@ Sotto il cofano, l'esecuzione del comando `flyway migrate` esegue le seguenti at
 </v-clicks>
 
 <!--
-La possibilità delle variabili di ambiente, lo rende abilitato per ambienti CI/CD e k8s.
+La possibilità delle variabili di ambiente, lo rende abilitante per ambienti CI/CD e k8s.
 -->
 
 ---
@@ -269,6 +271,7 @@ L'output mostrato è quello atteso, dato che il database è praticamente _"nuovo
 
 <!--
 Nella successiva slide vedremo il processo di migrazione in azione e in particolare:
+
 1. Clonazione del repository dello Schema del Database partendo dalla versione 1.0.0
 2. Visione degli script di migrazione che fanno parte della release 1.0.0
 3. Avvio del database (in questo caso PostgreSQL) vuoto su cui non è mai stata applicata nessuna migrazione

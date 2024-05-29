@@ -19,11 +19,12 @@ Per migliorare la sicurezza quando si utilizzano strumenti di <span v-mark.red="
 
 <!--
 Per la seconda strategia "Utilizzo di un servizio intermedio", è possibile utilizzare tre possibili pattern k8s (Kubernetes) che sono:
+
 1. Job
 2. Init Container
 3. Operator
 
-Nel caso in cui la propria applicazione sia sviluppata tramite il framework Java Quarkus, questo, prevede OOTB dei pattern per assolvere nel modo ottimale all'esecuzione dei task di migrazione.
+Nel caso in cui la propria applicazione sia stata sviluppata per esempio tramite il framework Quarkus, questo, prevede OOTB dei pattern per assolvere nel modo ottimale all'esecuzione dei task di migrazione.
 -->
 
 ---
@@ -67,5 +68,5 @@ level: 2
 </div>
 
 <!--
-Immagino che tutti sappiate che le secret standard di k8s non sono realmente sicure in quanto sfrutta l'encode in base64 per i valori memorizzato al suo interno, motivo per noi non ho fatto menzione.
+Immagino che tutti sappiate che le secret standard di k8s non sono realmente sicure in quanto sfruttano l'encode in Base64 per i valori che memorizzano, motivo per cui non ho fatto menzione.
 -->

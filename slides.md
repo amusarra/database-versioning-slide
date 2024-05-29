@@ -92,6 +92,8 @@ Questa presentazione vuole essere l'introduzione a un argomento conteso tra più
 
 Detto ciò, per facilitare lo svolgimento di questa presentazione, vi prego di mettere da parte tutte le vostre domande che affronteremo alla fine di questa presentazione.
 
+Come ultima cosa vi chiedo il consenso per la registrazione di questa sessione per poi poterla condividerla successivamente.
+
 Bene! Iniziamo
 -->
 
