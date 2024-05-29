@@ -13,6 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 ### Security
 
+## [1.1.0] - 2024-05-29
+
+### Fixed
+- Typo errors in the presentation
+
+### Changed
+- Minor changes in the notes of the slides
+
 ## [1.0.0] - 2024-05-29
 
 ### Added
