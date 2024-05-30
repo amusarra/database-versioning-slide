@@ -84,13 +84,15 @@ htmlAttrs:
 </style>
 
 <!--
-Buon pomeriggio a tutti e grazie per la partecipazione a questa sessione di formazione.
+Buon pomeriggio a tutti e grazie per la partecipazione a questa sessione che potremmo definire di formazione.
 
 Con questa presentazione, vorrei discutere insieme a voi di un tema su cui sono abbastanza sensibile e su cui ne abbiamo parlato tempo addietro con qualcuno di voi; credo che sia giunto il momento di affrontarlo in modo concreto e fare quel passo in più necessario per iniziare il processo di automazione anche per quel che riguarda le basi di dati applicative.
 
 Questa presentazione vuole essere l'introduzione a un argomento conteso tra più aree di competenza e fondamentale per la gestione di un database in un contesto di sviluppo software di tipo collaborativo (o di social coding).
 
-Detto ciò, per facilitare lo svolgimento di questa presentazione, vi prego di mettere da parte tutte le vostre domande che affronteremo alla fine di questa presentazione.
+Detto ciò, per facilitare lo svolgimento di questa presentazione, vi pregherei  di mettere da parte tutte le vostre domande che affronteremo alla fine di questa presentazione.
+
+La presentazione durerà non più di 40 minuti, lasciando il resto del tempo alle domande e approfondimenti.
 
 Come ultima cosa vi chiedo il consenso per la registrazione di questa sessione per poi poterla condividerla successivamente.
 
