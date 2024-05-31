@@ -13,6 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 ### Security
 
+## [1.0.2] - 2024-05-31
+
+### Changed
+- Cambiato il color schema in dark
+
 ## [1.0.1] - 2024-05-29
 
 ### Fixed

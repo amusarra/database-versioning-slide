@@ -48,7 +48,7 @@ monaco: true
 monacoTypesSource: local
 
 # force color schema for the slides, can be 'auto', 'light', or 'dark'
-colorSchema: auto
+colorSchema: dark
 
 # router mode for vue-router, can be "history" or "hash"
 routerMode: history
